@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main_div{
+    min-height: 100vh;
+    max-width: 100%;
+    background-color: rgb(94, 63, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.center_div{
+    min-height: 70vh;
+    width: 400px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    
+    
+}
+h1{
+    background-color: rgb(55, 36, 72);
+    margin-top: 30px;
+    color: white;
+    height: 60px;
+    font-size: 3rem;
+}
+input{
+    border: none;
+    margin: 30px;
+    background: transparent;
+    border-bottom: 3px solid rgb(55, 36, 72);
+    height: 40px;
+}
+::placeholder{
+    color: rgb(69, 63, 63);
+    font-size: 1.5rem;
+}
+input[type=text]{
+    color: blueviolet;
+    font-size: 1.3rem;
+}
+.btn{
+    color: white;
+    font-size: 2.5rem;
+   margin: 13px;
+   padding-bottom: 58px;
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    border: none;
+    background-color:  rgb(94, 63, 121);
+}
+.btn:hover{
+    background-color: green;
+}
+ol li{
+    font-size: 1.5rem;
+    color: black;
+    list-style: none;
+    text-transform: capitalize;
+}
+.list{
+    margin: 10px;
+    /* background-color:  rgb(94, 63, 121); */
+    /* height: 40vh; */
+    display: flex;
+ 
+}
+.fa-xmark{
+    font-size: 1.5rem;
+    height: 30px;
+    width: 30px;
+    color: aliceblue;
+    padding-top: 3px;
+    border-radius: 50%;
+    background-color:  rgb(94, 63, 121);
+}
+.fa-xmark:hover{
+    background-color: brown;
+}
